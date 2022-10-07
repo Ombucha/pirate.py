@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pirate.py"
+version = "1.0.0"
+description = "Translate text to Pirate Speak."
+authors = ["Infiniticity <omkaar.nerurkar@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/Infiniticity/pirate.py/"
+documentation = "https://pirate.readthedocs.io/"
+keywords = ["python", "pirate"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+packages = ["pirate"]
+
+[tool.poetry.dependencies]
+requests = "2.28.*"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/Infiniticity/pirate.py/issues"
