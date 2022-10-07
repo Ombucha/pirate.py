@@ -48,5 +48,5 @@ To install the development version, do the following:
 Links
 -----
 
-- `GoComics <https://pirate.monkeyness.com/>`_
+- `Pirate Monkeyness <https://pirate.monkeyness.com/>`_
 - `Documentation <https://pirate.readthedocs.io/>`_

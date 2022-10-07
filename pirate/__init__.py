@@ -1,5 +1,5 @@
 """
-GoComics Scraper
+Pirate API Wrapper
 ~~~~~~~~~~~~~~~~~~~
 
 A basic API wrapper for the Pirate API.
