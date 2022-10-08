@@ -1,2 +1,2 @@
 [MASTER]
-disable = E0401, C0114
+disable = E0401, C0114, W3101
