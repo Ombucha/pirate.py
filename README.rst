@@ -1,52 +1,66 @@
-pirate.py
-===========
+.. image:: https://raw.githubusercontent.com/Ombucha/pirate.py/main/banner.png
 
-.. image:: https://img.shields.io/github/license/Infiniticity/pirate.py
-    :target: https://github.com/Infiniticity/pirate.py/blob/main/LICENSE
-    :alt: license
-.. image:: https://img.shields.io/tokei/lines/github/Infiniticity/pirate.py
-    :target: https://github.com/Infiniticity/pirate.py/graphs/contributors
-    :alt: lines of code
 .. image:: https://img.shields.io/pypi/v/pirate.py
     :target: https://pypi.python.org/pypi/pirate.py
-    :alt: PyPI version info
-.. image:: https://img.shields.io/pypi/pyversions/pirate.py
-    :alt: Python version info
+    :alt: PyPI version
+.. image:: https://img.shields.io/pypi/dm/pirate.py
+    :target: https://pypi.python.org/pypi/pirate.py
+    :alt: PyPI downloads
+.. image:: https://sloc.xyz/github/Ombucha/pirate.py
+    :target: https://github.com/Ombucha/pirate.py/graphs/contributors
+    :alt: Lines of code
+.. image:: https://img.shields.io/github/repo-size/Ombucha/pirate.py
+    :target: https://github.com/Ombucha/pirate.py
+    :alt: Repository size
 
+Arrr! What Ye Be Needin'
+------------------------
 
-Requirements
-------------
+Before ye set sail, make sure yer ship has these aboard:
 
-This module requires the following modules:
+* Python 3.8 or higher (no rusty old versions, matey!)
+* The mighty `requests <https://pypi.python.org/pypi/requests>`_ library
 
-* `requests <https://pypi.python.org/pypi/requests>`_
+How t' Hoist the Sails (Installin')
+-----------------------------------
 
-
-Installation
-------------
-
-**Python 3.8 or higher is required.**
-
-To install the stable version, do the following:
+To plunder the latest stable release from PyPI, run this in yer terminal:
 
 .. code-block:: sh
 
-    # Unix / macOS
+    # Fer Unix / macOS buccaneers
     python3 -m pip install "pirate.py"
 
-    # Windows
+    # Fer Windows deckhands
     py -m pip install "pirate.py"
 
-
-To install the development version, do the following:
+If ye want the freshest code from the captain's quarters (development version):
 
 .. code-block:: sh
 
-    $ git clone https://github.com/Infiniticity/pirate.py
+    git clone https://github.com/Ombucha/pirate.py
+    cd pirate.py
+    pip install -e .
 
+Quick Start Fer Landlubbers
+---------------------------
 
-Links
------
+Here be how ye use this treasure:
 
-- `Pirate Monkeyness <https://pirate.monkeyness.com/>`_
-- `Documentation <https://pirate.readthedocs.io/>`_
+.. code-block:: python
+
+    import pirate
+
+    # Hurl a pirate insult at yer foes!
+    print(pirate.insult())  # "We'll keel-haul ye, ye fish-kissin', scallywagging monkey! ... Ahoy!"
+
+    # Turn yer plain English into Pirate Speak!
+    print(pirate.translate("Hand over the treasure, or you'll be walking the plank!"))  # "Hand o'er the treasure, or ye'll be walkin' the plank!"
+
+Links t' Treasure Maps
+----------------------
+
+- `Pirate Monkeyness <https://pirate.monkeyness.com/>`_ — The mystical source o' pirate wisdom!
+- `Documentation <https://pirate.readthedocs.io/>`_ — The ship's logs, fer those who read.
+
+Fair winds and happy plunderin', matey! 🏴‍☠️

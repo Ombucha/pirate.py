@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2022 Omkaar
+Copyright (c) 2025 Omkaar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -28,14 +28,14 @@ from __future__ import annotations
 from requests import get
 
 
-BASE_URL = "https://pirate.monkeyness.com/"
+BASE_URL = "https://pirate.monkeyness.com/api"
 
 
 def insult() -> str:
     """
     Generates a pirate insult.
     """
-    response = get(f"{BASE_URL}api/insult")
+    response = get(f"{BASE_URL}/insult")
     return response.text
 
 
@@ -46,5 +46,5 @@ def translate(text: str) -> str:
     :param text: The text to translate.
     :type text: :class:`str`
     """
-    response = get(f"{BASE_URL}api/translate", params = {"english": text})
+    response = get(f"{BASE_URL}/translate", params = {"english": text})
     return response.text

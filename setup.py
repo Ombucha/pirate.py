@@ -7,11 +7,11 @@ README = (HERE / "README.rst").read_text()
 
 setup(
     name = "pirate.py",
-    version = "1.0.0",
+    version = "1.1.0",
     description = "Translate text to Pirate Speak.",
     long_description = README,
     long_description_content_type = "text/x-rst",
-    url = "https://github.com/Infiniticity/pirate.py",
+    url = "https://github.com/Ombucha/pirate.py",
     author = "Omkaar",
     author_email = "omkaar.nerurkar@gmail.com",
     license = "MIT",
