@@ -30,5 +30,5 @@ If you have have any other issues feel free to search for duplicates and then cr
 Functions
 ---------
 
-.. autofunction pirate.insult
-.. autofunction pirate.translate
+.. autofunction:: pirate.insult
+.. autofunction:: pirate.translate
